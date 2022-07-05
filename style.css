@@ -1,0 +1,103 @@
+:root{
+   -main--color: #00568f;
+}
+
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+@media screen and (max-width: 800px){
+   *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+   }
+   .banner{
+      width: 100%;
+   }
+
+   .banner img{
+      width: 100%;
+   }
+
+   .user{
+      background-color: #00568f;
+      width: 100%;
+      height: 50px;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+   }
+
+   .user p{
+      color: #fff;
+      font-size: 14px;
+      font-weight: bold;
+   }
+
+   .select{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      font-size: 14px;
+      padding: 10px 0;
+   }
+
+   .select .containt{
+      border: 1px solid #000;
+      padding: 2px 5px;
+      border-radius: 3px;
+      margin-top: 2px;
+   }
+
+   .note{
+      margin-top: 20px;
+      padding: 0 10px;
+   }
+   .table-items table{
+      border: 1px solid; 
+      text-align: center;
+      margin-bottom: 30px;
+   }
+
+   .table-items table, td, th{
+      border-collapse: collapse;
+      border: 1px solid #000;
+   }
+
+   .table-items th{
+      font-size: 13px;
+   }
+
+   .table-items td.school-year-semester{
+      background-color: #c7d6f3;
+      color: blue;
+      font-weight: bold;
+   }
+   
+   .table-items td.summary{
+      font-weight: bold;
+      line-height: 16px;
+      background-color: #f7eedf;
+      align-items: flex-end;
+   }
+
+   i.fa-check{
+      font-weight: bold;
+      font-size: 15px;
+      color: green;
+   }
+   
+   
+   i.fa-calendar-days{
+      font-size: 15px;
+      color: rgb(0, 126, 245);
+   }
+
+   i.fa-x{
+      font-size: 15px;
+      color: red;
+   }
+}
